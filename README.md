@@ -1,1 +1,1 @@
-# EugSite
+# eugsite
