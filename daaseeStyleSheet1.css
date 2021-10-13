@@ -1,0 +1,117 @@
+@charset "UTF-8";
+html {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Verdana, sans-serif;
+  font-size: normal;
+  line-height: 1.2em;
+  background-color: #d1e3d6;
+  /*background-image: url(images/3.png);*/
+}
+
+/*typography*/
+h1 {
+  font-family: "Marko One", Georgia, serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: olive;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1.5em;
+}
+
+h2 {
+  font-family: Georgia, serif;
+  font-size: 1.3em;
+  color: olive;
+  text-align: center;
+
+}
+
+/*header styles*/
+header img {
+  width: auto;
+  height: 200px;
+  margin-left: .5em;
+  margin-right: .5em;
+}
+
+header {
+  text-align: center;
+}
+
+/*main styles*/
+
+
+/*nav styles*/
+
+
+/*misc styles*/
+h2+p {
+  text-align: center;
+}
+
+/*list styles*/
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+nav ul li a {
+  display: block;
+  border: 1px solid;
+  border-radius: 0.2em;
+  padding: 0.5em 1em;
+  margin: 0.5em;
+}
+
+/*if i want to columnarise my navigation panel, the below will help size the menu boxes*/
+/*.menu {
+  width: 10%;
+}*/
+
+/*footer styles*/
+footer img {
+  width: 40px;
+  height: 40px;
+  margin-left: .5em;
+  margin-right: .5em;
+}
+
+footer {
+  border-top: 1px solid #425c49;
+  text-align: center;
+  padding-top: 1em;
+}
+
+/*link styles*/
+a {
+  text-decoration: none;
+}
+
+/* turns underlines off for all links */
+
+a:link {
+  color: olive;
+}
+
+a:visited {
+  color: gray;
+}
+
+a:focus,
+a:hover {
+  color: #425c49;
+  background-color: #fff;
+}
+
+/* media queries to help adapt the website to various screen sizes grouped into phones, tablets and pc.
+i will be considering about 3 devices on average for every screen size group. */
