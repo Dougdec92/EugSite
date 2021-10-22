@@ -33,11 +33,18 @@ h2 {
   text-align: center;
 }
 
-/*header styles*/
-header {
-  background: url("./image/daasee.png") no-repeat center;
+/*banner image styles*/
+div.header {
+  background: url(image/daasee.png) no-repeat center center;
   background-size: cover;
+  margin-top: -2.3em;
+  padding-bottom: 9em;
 }
+
+#bannertag {
+  display: none;
+}
+
 
 /*nav styles*/
 nav ul, footer ul {
