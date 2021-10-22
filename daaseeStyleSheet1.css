@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 html {
   box-sizing: border-box;
 }
@@ -9,10 +10,9 @@ html {
 
 body {
   font-family: Verdana, sans-serif;
-  font-size: normal;
-  line-height: 1.2em;
+  font-size: 100%;
   background-color: #d1e3d6;
-  /*background-image: url(images/3.png);*/
+  margin: 0;
 }
 
 /*typography*/
@@ -31,52 +31,56 @@ h2 {
   font-size: 1.3em;
   color: olive;
   text-align: center;
-
 }
 
 /*header styles*/
-header img {
-  width: auto;
-  height: 200px;
-  margin-left: .5em;
-  margin-right: .5em;
-}
-
 header {
-  text-align: center;
+  background: url(image/daasee.png) no-repeat center;
+  background-size: cover;
 }
-
-/*main styles*/
-
 
 /*nav styles*/
-
-
-/*misc styles*/
-h2+p {
-  text-align: center;
+nav ul, footer ul {
+  background-color: #a3e6ad;
 }
 
-/*list styles*/
 nav ul {
+  padding: 0;
+  margin: 0;
   list-style: none;
   display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
+  flex-wrap: wrap;
+}
+
+nav ul li {
+  font-size: .8em;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #091c0e;
+  flex: 1 1 50%;
+  letter-spacing: .2em;
+  text-align: center;
+  padding: 0;
+  margin: 0;
 }
 
 nav ul li a {
   display: block;
-  border: 1px solid;
-  border-radius: 0.2em;
+  border: 1px solid #425c49;
+  border-radius: 0.3em;
   padding: 0.5em 1em;
-  margin: 0.5em;
+  margin: 0.25em;
 }
 
-/*if i want to columnarise my navigation panel, the below will help size the menu boxes*/
-/*.menu {
-  width: 10%;
-}*/
+/*main styles*/
+main, #head, #arms, #torso, #groin, #legs, #feet {
+  font-size: 1em;
+  line-height: 1.4em;
+  margin: 2.5%;
+  padding: 2.5%;
+  text-align: left;
+}
+
 
 /*footer styles*/
 footer img {
@@ -98,7 +102,6 @@ a {
 }
 
 /* turns underlines off for all links */
-
 a:link {
   color: olive;
 }
