@@ -125,3 +125,19 @@ a:hover {
 
 /* media queries to help adapt the website to various screen sizes grouped into phones, tablets and pc.
 i will be considering about 3 devices on average for every screen size group. */
+
+/* this media query is to allow for tablet screen */
+@media screen and (min-width: 500px) {
+  nav ul li {
+    flex: none;
+  }
+
+  nav ul {
+    justify-content: center;
+  }
+
+}
+
+@media screen and (min-width: 600px) {
+
+}
